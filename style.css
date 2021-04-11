@@ -36,6 +36,7 @@ section h1{
     padding: 5px;
     border-radius: 10px;
     margin-bottom: 20px;
+    t
 }
 
 section h1 span{
@@ -142,9 +143,11 @@ main img:nth-child(3){
     }
     main section{
         left: 2%;
+        transition : all 0.8s ease-out;
     }
     section h1{
         line-height: 90px;
         margin-bottom: 0px;
+        
     }
 }
